@@ -1,0 +1,48 @@
+@use "reset";
+@use "vars";
+
+*::selection {
+  background: var(--white);
+  color: var(--bg-color);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 18px;
+  font-family: var(--pitchsans);
+  color: var(--white);
+
+  background: var(--bg-color);
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 890px;
+  padding: 0 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+//Media Adaptation
+
+@media (width < 540px) {
+  body {
+    font-size: 16px;
+  }
+}

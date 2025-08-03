@@ -1,0 +1,39 @@
+.research {
+  scroll-margin-top: 40px;
+}
+
+.research__wrapper {
+  padding: 40px 0;
+}
+
+.title {
+  font-size: 28px;
+  font-family: var(--gelasio);
+}
+
+.research_list {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.research_list__link {
+  display: inline-block;
+
+  color: var(--white);
+  line-height: 1.8em;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+//Media Adaptation
+
+@media (width < 400px) {
+  .research_list__link {
+    font-size: 14px;
+  }
+}

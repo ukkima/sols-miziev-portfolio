@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@600&display=swap");
+
+@font-face {
+  font-family: "Pitchsans";
+  src:
+    local("Pitchsans"),
+    url("../assets/fonts/pitch-sans_500.otf") format("opentype");
+}
+
+:root {
+  //colors
+  --bg-color: oklch(0.14 0 0);
+  --border-color: oklch(0.3 0 0);
+  --accent-color: oklch(0.8 0.07 56.93);
+  --white: oklch(1 0 0);
+  --love-red: oklch(0.6 0.23 12.68);
+
+  --bg-color-transparency: oklch(0.14 0 0 / 0.5);
+
+  //fonts
+  --pitchsans: "Pitchsans", serif;
+  --gelasio: "Gelasio", serif;
+}

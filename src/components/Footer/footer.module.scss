@@ -1,0 +1,33 @@
+.footer__wrapper {
+  padding: 18px 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  justify-content: space-between;
+
+  border-top: 1px solid var(--border-color);
+}
+
+.footer_message {
+  font-family: var(--gelasio);
+  font-size: 18px;
+  -webkit-text-fill-color: transparent;
+
+  background: linear-gradient(to right, var(--white), var(--love-red));
+  background-clip: text;
+}
+
+.footer_menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer_menu__link {
+  color: var(--white);
+
+  &:hover {
+    color: var(--hover-link-color);
+  }
+}
