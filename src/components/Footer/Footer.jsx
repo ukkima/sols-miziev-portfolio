@@ -3,7 +3,7 @@ import { footerMenuItems } from "src/consts/index.js";
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer className={cls.footer}>
       <div className="container">
         <div className={cls.footer__wrapper}>
           <h6 className={cls.footer_message}>Made with love for Sols</h6>

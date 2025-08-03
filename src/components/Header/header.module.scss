@@ -26,7 +26,7 @@
   color: var(--white);
 
   cursor: pointer;
-  transition: color .1s;
+  transition: color 0.1s;
   &:hover {
     color: var(--accent-color);
   }
@@ -60,5 +60,17 @@
     &::after {
       display: block;
     }
+  }
+}
+
+//Media Adaptation
+
+@media (width < 540px) {
+  .header {
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .header__wrapper {
+    border-bottom: 0px solid var(--border-color);
   }
 }
