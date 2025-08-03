@@ -29,11 +29,3 @@
     text-decoration: underline;
   }
 }
-
-//Media Adaptation
-
-@media (width < 400px) {
-  .research_list__link {
-    font-size: 14px;
-  }
-}
